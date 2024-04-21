@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flowers{
+  rotate: 180deg;
+  transform: translateY(4rem);
+}
+
+.flowers-container{
+  max-width: 25rem;
+  margin-bottom: -3rem;
+}
+
+.header{
+  margin-top: 20rem;
+}
+
+
+.logo{
+  max-width: 15rem;
+}
+
+.title{
+  font-size: 2.3rem;
+  font-weight: 300;
+  color: #694C3D;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: cinzel;
+}
+
+.header-text{
+  font-family: raleway, sans-serif;
+  max-width: 20rem;
+  text-align: center;
+}
+
+.flowers2{
+  max-width: 20rem;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #FDF5F1;
+}
+audio::-webkit-media-controls-current-time-display{
+  display: none;
+}
+audio::-webkit-media-controls-time-remaining-display{
+  display: none;
+}
+audio::-webkit-media-controls-volume-slider-container{
+  display: none;
+}
+audio::-webkit-media-controls-volume-slider{
+  display: none;
+}
+audio::-webkit-media-controls-mute-button{
+  display: none;
+}
+audio::-webkit-media-controls-timeline{
+  color: #694C3D;
+}
+
+.savethedate{
+  font-family: raleway;
+  color: #694C3D;
+  background-color: white;
+  width: 100vw;
+}
+
+.savethedate h2{
+  font-family: cinzel;
+}
+
+.counter{
+  background-color: #FDF5F1;
+  max-width: 30rem;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.counter__label{
+  font-weight: 700;
+}
+.counter__number{
+  font-size: 1.5rem;
+}
+
+
+.photos{
+  width: 100vw;
+  background-color: #FDF5F1;
+}
+
+.photo{
+  aspect-ratio: 2/3;
+  overflow: hidden;
+  width: 100%;
+}
+
+.place-container{
+  background-color: white;
+  width: 100vw;
+  font-family: cinzel;
+}
+
+.place-image{
+  border-radius: 50%;
+  color: #694C3D;
+  background-color: white;
+  border: #694C3D 1px solid;
+  font-size: 4.5rem;
+  max-width: 7rem;
+}
+
+.place-row{
+  align-self: center;
+  max-width: 30rem;
+}
+
+.place-text{
+  font-family: raleway;
+  font-weight: 700;
+  color: #694C3D;
+}
+
+.place-p{
+  font-family: raleway;
+  color: #694C3D;
+  font-weight: 300;
+  max-width: 15rem;
+}
+
+.raleway{
+  font-family: raleway;
+  color: #694C3D;
+  font-weight: 300;
+}
+
+
+.routine-image{
+  font-size: 10rem;
+  height: fit-content;
+}
+
+
+.footer{
+  background-color: #694C3D;
+  width: 100vw;
+}
+
+.footer-text{
+  max-width: 30rem;
+}
+
+.hashtag{
+  font-family: raleway;
+  font-style: italic;
+  color: #FDF5F1;
+  font-weight: 700;
+}
